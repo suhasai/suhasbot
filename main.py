@@ -15,8 +15,8 @@ working_directory = os.path.dirname(os.path.abspath(__file__))
 
 #Setting up page configuration
 st.set_page_config(
-    page_title="Gemini AI",
-    page_icon="🦁",
+    page_title="Suhas AI Bot",
+    page_icon="🐦‍🔥",
     layout="centered"
 )
 
@@ -49,7 +49,7 @@ if selected == "ChatBot":
 
 
     #input field for users message
-    user_prompt = st.chat_input("Ask Gemini-Pro...")
+    user_prompt = st.chat_input("Ask GPT...")
 
     if user_prompt:
         st.chat_message("user").markdown(user_prompt)
