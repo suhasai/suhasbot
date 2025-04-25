@@ -22,7 +22,7 @@ st.set_page_config(
 
 with st.sidebar:
 
-    selected = option_menu("Gemini AI",["ChatBot", "Image Captioning", "Embed text", "Ask me anything"],menu_icon = 'robot', icons=['chat-dots-fill','image-fill','textarea-t','person raised hand'],default_index=0)
+    selected = option_menu("Suhas AI Bots",["ChatBot", "Image Captioning", "Embed text", "Ask me anything"],menu_icon = 'robot', icons=['chat-dots-fill','image-fill','textarea-t','person raised hand'],default_index=0)
 
 def translate_role_for_streamlit(user_role):
     if user_role == 'model':
